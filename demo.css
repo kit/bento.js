@@ -1,0 +1,101 @@
+html, body {
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fdf9ed;
+  padding: 0px 12px 20px;
+
+  @media screen and (min-width: 600px) {
+    padding: 40px 12px;
+  }
+}
+
+a,
+a:active,
+a:visited {
+  color: #444;
+}
+
+a:hover {
+  color: #666;
+}
+
+code, pre {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+code {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  overflow-x: auto;
+  padding: 12px;
+  white-space: nowrap;
+}
+
+#bentoIcon {
+  display: block;
+  height: 40vh;
+  min-height: 300px;
+  margin: 0 auto;
+  width: auto;
+  max-width: 100%;
+}
+
+#Inner > * {
+  opacity: 0.55;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  text-align: center;
+}
+
+.heading > h1 {
+  line-height: 1.4;
+  margin: 0;
+}
+
+.example {
+  margin-bottom: 40px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.example-wrapper {
+  background-color: #222;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.example > h3 {
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0;
+  padding: 12px;
+  text-align: center;
+}
+
+.footer {
+  border-top: 1px solid #ccc;
+  font-size: 14px;
+  padding-bottom: 40px;
+}
+
+.footer-logo {
+  display: block;
+  margin: 20px auto 8px;
+  width: 40px;
+}
+
+.footer > p {
+  line-height: 1.4;
+  margin: 0 auto 4px;
+}
+
